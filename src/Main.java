@@ -31,12 +31,12 @@ public class Main {
         System.out.println(h);
 
         // задача 3
-        byte studentsLudmila = 23;
-        byte studentsAnna = 27;
-        byte studentsKate = 30;
-        short papers = 480;
-        byte totalStudents = (byte) (studentsLudmila + studentsAnna + studentsKate);
-        byte papersStudents = (byte) (papers / totalStudents);
+        int studentsLudmila = 23;
+        int studentsAnna= 27;
+        int studentsKate = 30;
+        int papers = 480;
+        int totalStudents = (int) (studentsLudmila + studentsAnna + studentsKate);
+        int papersStudents = (int) (papers / totalStudents);
         System.out.println("На каждого ученика рассчитано " + papersStudents + " листов бумаги.");
 
         // задача 4
@@ -69,9 +69,9 @@ public class Main {
         System.out.println( "Общий вес спортзавтрака = " + weightKg + " килограмм." );
 
         // задача 7
-        byte day500 = 7000 / 500;
+        int day500 = 7000 / 500;
         System.out.println( day500 + " дней потребуется, если худеть на 500 грамм.");
-        byte day250 = 7000 / 250;
+        int day250 = 7000 / 250;
         System.out.println( day250 + " дней потребуется, если худеть на 250 грамм.");
         int srDays = ((day500 + day250) / 2);
         System.out.println( srDays + " день потребуется в среднем ");
@@ -88,6 +88,6 @@ public class Main {
         float razkris = (zpkris - kris) * 12;
         System.out.println("Маша теперь получает " + zpmasha + ". Годовой доход вырос на " + razmasha + " рублей ");
         System.out.println("Денис теперь получает " + zpdenis + ". Годовой доход вырос на " + razdenis + " рублей ");
-        System.out.println("Маша теперь получает " + zpkris + ". Годовой доход вырос на " + razkris + " рублей ");
+        System.out.println("Кристина теперь получает " + zpkris + ". Годовой доход вырос на " + razkris + " рублей ");
     }
 }
